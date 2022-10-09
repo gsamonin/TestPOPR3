@@ -8,6 +8,13 @@ class Perevod:
     def YardVMetr(self, x):
         return x * 0.91
 
+    def VershVMetr(self, x):
+        return x * 0.044
+
+    def PyadVMetr(self, x):
+        return x * 0.18
+
+
 # def  AmVSI(x):
 #    print('Перевод из Американской в СИ')
 #    per = int(input('Укажите единицу измерения:\n 1. Дюйм\n'
