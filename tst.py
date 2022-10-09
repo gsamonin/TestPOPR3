@@ -12,6 +12,8 @@ class TestPerevod(unittest.TestCase):
     def test_DumVMetr(self):
         self.assertEqual(self.per.DumVMetr(1), 0.025)
 
+    def test_YardVMetr(self):
+        self.assertEqual(self.per.YardVMetr(1), 0.91)
 
 if __name__ == "__main__":
     unittest.main()
