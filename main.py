@@ -2,9 +2,11 @@ class Perevod:
     def FutVMetr(self, x):
         return x * 0.3
 
-    def DumvMetr(self, x):
+    def DumVMetr(self, x):
         return x * 0.025
 
+    def YardVMetr(self, x):
+        return x * 0.91
 
 # def  AmVSI(x):
 #    print('Перевод из Американской в СИ')
