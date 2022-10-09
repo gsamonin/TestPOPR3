@@ -21,5 +21,8 @@ class TestPerevod(unittest.TestCase):
     def test_PyadVMetr(self):
         self.assertEqual(self.per.PyadVMetr(1), 0.18)
 
+    def test_SazhenVMetr(self):
+        self.assertEqual(self.per.SazhenVMetr(1), 2.13)
+
 if __name__ == "__main__":
     unittest.main()
