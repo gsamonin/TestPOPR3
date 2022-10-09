@@ -17,6 +17,9 @@ class Perevod:
     def PyadVMetr(self, x):
         return x * 0.18
 
+    def SazhenVMetr(self, x):
+        return x * 2.13
+
 
 # def  AmVSI(x):
 #    print('Перевод из Американской в СИ')
