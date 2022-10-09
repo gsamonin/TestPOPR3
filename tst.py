@@ -18,5 +18,8 @@ class TestPerevod(unittest.TestCase):
     def test_VershVMetr(self):
         self.assertEqual(self.per.VershVMetr(1), 0.044)
 
+    def test_PyadVMetr(self):
+        self.assertEqual(self.per.PyadVMetr(1), 0.18)
+
 if __name__ == "__main__":
     unittest.main()
