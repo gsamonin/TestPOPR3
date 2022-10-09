@@ -7,6 +7,8 @@ class Perevod:
 
     def YardVMetr(self, x):
         return x * 0.91
+    def VershVMetr(self, x):
+        return x * 0.044
 
 # def  AmVSI(x):
 #    print('Перевод из Американской в СИ')
